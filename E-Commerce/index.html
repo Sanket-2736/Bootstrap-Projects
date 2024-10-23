@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/@icon/themify-icons@1.0.1-alpha.3/themify-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsiveStyle.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <section id="header">
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="logo.png" class="img-fluid" alt="Logo Ofiicial">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="ti-align-justify navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#special">Special</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#testimonial">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            
+          </nav>
+    </section>
+
+    <section id="home" class="home pt-5 overflow-hidden">
+        <div data-bs-ride="carousel" id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1" class="active"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-current="true" aria-label="Slide 1"></button>
+            </div>
+        
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="home-banner home-banner-1">
+                        <div class="home-banner-text">
+                            <h1>Women</h1>
+                            <h2>52% Discount For This Season</h2>
+                            <a href="#" class="btn btn-danger text-uppercase mt-4">Our Products</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="home-banner home-banner-2">
+                        <div class="home-banner-text">
+                            <h1>E-Shop</h1>
+                            <h2>With Working card And PayPal</h2>
+                            <a href="#" class="btn btn-danger text-uppercase mt-4">Our Products</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="fa-solid fa-angle-left slider-icon"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="fa-solid fa-angle-right slider-icon"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="offer">
+            <div class="container">
+                <div class="row">
+                    <!-- offer 1 box -->
+                    <div class="col-sm-6 col-lg-4 mb-lg-0 mb-4">
+                        <a href="#">
+                            <div class="text-center offer-box position-relative">
+                                <div class="offer-inner">
+                                    <div class="offer-image position-relative overflow-hidden">
+                                        <img src="offer1.jpg" alt="Offers" class="img-fluid">
+                                        <div class="offer-overlay"></div>
+                                    </div>
+                                    <div class="offer-info">
+                                        <div class="offer-info-inner">
+                                            <p class="headline-bigger text-capitalize">Sale 30%</p>
+                                            <p class="offer-title-1 text-uppercase font-weight-bold">Don't miss this chance</p>
+                                            <button class="btn btn-outline-danger text-uppercase mt-4" type="button">Shop Now</button>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-lg-0 mb-4">
+                        <a href="#">
+                            <div class="text-center offer-box d-flex flex-column justify-content-between position-relative">
+                                <div class="offer-inner">
+                                    <div class="offer-image position-relative mb-5 mb-sm-0 mb-lg-0 overflow-hidden">
+                                        <img src="offer2.jpg" alt="Offers" class="img-fluid">
+                                        <div class="offer-overlay"></div>
+                                    </div>
+                                    <div class="offer-info">
+                                        <div class="offer-info-inner">
+                                            <p class="headline-bigger text-capitalize">Sale 70%</p>
+                                            <p class="offer-title-1 text-uppercase font-weight-bold">Don't miss this chance</p>
+                                            <button class="btn btn-outline-danger text-uppercase mt-4" type="button">Shop Now</button>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="text-center mt-4 offer-box d-flex flex-column justify-content-between position-relative">
+                                <div class="offer-inner">
+                                    <div class="offer-image position-relative overflow-hidden">
+                                        <img src="offer3.jpg" alt="Offers" class="img-fluid">
+                                        <div class="offer-overlay"></div>
+                                    </div>
+                                    <div class="offer-info">
+                                        <div class="offer-info-inner">
+                                            <p class="headline-bigger text-capitalize">Sale 50%</p>
+                                            <p class="offer-title-1 text-uppercase font-weight-bold">Don't miss this chance</p>
+                                            <button class="btn btn-outline-danger text-uppercase mt-4" type="button">Shop Now</button>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4 mb-lg-0 mb-4">
+                        <a href="#">
+                            <div class="text-center offer-box position-relative">
+                                <div class="offer-inner">
+                                    <div class="offer-image position-relative overflow-hidden">
+                                        <img src="offer4.jpg" alt="Offers" class="img-fluid">
+                                        <div class="offer-overlay"></div>
+                                    </div>
+                                    <div class="offer-info">
+                                        <div class="offer-info-inner">
+                                            <p class="headline-bigger text-capitalize">Sale 60%</p>
+                                            <p class="offer-title-1 text-uppercase font-weight-bold">Don't miss this chance</p>
+                                            <button class="btn btn-outline-danger text-uppercase mt-4" type="button">Shop Now</button>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="headline text-center mb-5">
+                        <h2 class="text-uppercase pb-3 position-relative d-inline-block">Featured Products</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-lg-4">
+                    <a href="#" class="d-block text-center mb-4">
+                        <div class="product-list">
+                            <div class="product-image position-relative">
+                                <span class="sale">Sale</span>
+                                <img src="p1.jpg" alt="P1" class="img-fluid product-image-first">
+                                <img src="p3.jpg" alt="P1" class="img-fluid product-image-secondary">
+                            </div>
+                            <div class="product-name pt-3">
+                                <h3 class="text-capitalize">winter long sleeve black white</h3>
+                                <p class="mb-0 amount"><strong>$400.00</strong> <del>$480.00</del></p>
+                                <div class="py-1">
+                                    <span><i class="fa-solid fa-star active"></i></span>
+                                    <span><i class="fa-solid fa-star active"></i></span>
+                                    <span><i class="fa-solid fa-star active"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+
+                                    <button class="btn add_to_cart" type="button">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <a href="#" class="d-block text-center mb-4">
+                        <div class="product-list">
+                            <div class="product-image position-relative">
+                                <span class="sale">Sale</span>
+                                <img src="p2.jpg" alt="P1" class="img-fluid product-image-first">
+                                <img src="p4.jpg" alt="P1" class="img-fluid product-image-secondary">
+                            </div>
+                            <div class="product-name pt-3">
+                                <h3 class="text-capitalize">women totes lady handbag</h3>
+                                <p class="mb-0 amount"><strong>$300.00</strong> <del>$350.00</del></p>
+                                <div class="py-1">
+                                    <span><i class="fa-solid fa-star active"></i></span>
+                                    <span><i class="fa-solid fa-star active"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+
+                                    <button class="btn add_to_cart" type="button">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <a href="#" class="d-block text-center mb-4">
+                        <div class="product-list">
+                            <div class="product-image position-relative">
+                                <span class="sale">Sale</span>
+                                <img src="p5.jpg" alt="P1" class="img-fluid product-image-first">
+                                <img src="p6.jpg" alt="P1" class="img-fluid product-image-secondary">
+                            </div>
+                            <div class="product-name pt-3">
+                                <h3 class="text-capitalize">women totes lady handbag</h3>
+                                <p class="mb-0 amount"><strong>$350.00</strong> <del>$410.00</del></p>
+                                <div class="py-1">
+                                    <span><i class="fa-solid fa-star active"></i></span>
+                                    <span><i class="fa-solid fa-star active"></i></span>
+                                    <span><i class="fa-solid fa-star active"></i></span>
+                                    <span><i class="fa-solid fa-star active"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+
+                                    <button class="btn add_to_cart" type="button">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <a href="#" class="d-block text-center mb-4">
+                        <div class="product-list">
+                            <div class="product-image position-relative">
+                                <span class="sale">Sale</span>
+                                <img src="p4.jpg" alt="P1" class="img-fluid product-image-first">
+                                <img src="p8.jpg" alt="P1" class="img-fluid product-image-secondary">
+                            </div>
+                            <div class="product-name pt-3">
+                                <h3 class="text-capitalize">lace water soluble sexy dress</h3>
+                                <p class="mb-0 amount"><strong>$510.00</strong> <del>$550.00</del></p>
+                                <div class="py-1">
+                                    <span><i class="fa-solid fa-star active"></i></span>
+                                    <span><i class="fa-solid fa-star active"></i></span>
+                                    <span><i class="fa-solid fa-star active"></i></span>
+                                    <span><i class="fa-solid fa-star active"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+
+                                    <button class="btn add_to_cart" type="button">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <a href="#" class="d-block text-center mb-4">
+                        <div class="product-list">
+                            <div class="product-image position-relative">
+                                <span class="sale">Sale</span>
+                                <img src="p9.jpg" alt="P1" class="img-fluid product-image-first">
+                                <img src="p5.jpg" alt="P1" class="img-fluid product-image-secondary">
+                            </div>
+                            <div class="product-name pt-3">
+                                <h3 class="text-capitalize">women totes lady handbag</h3>
+                                <p class="mb-0 amount"><strong>$190.00</strong> <del>$250.00</del></p>
+                                <div class="py-1">
+                                    <span><i class="fa-solid fa-star active"></i></span>
+                                    <span><i class="fa-solid fa-star active"></i></span>
+                                    <span><i class="fa-solid fa-star active"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+
+                                    <button class="btn add_to_cart" type="button">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <a href="#" class="d-block text-center mb-4">
+                        <div class="product-list">
+                            <div class="product-image position-relative">
+                                <span class="sale">Sale</span>
+                                <img src="p1.jpg" alt="P1" class="img-fluid product-image-first">
+                                <img src="p6.jpg" alt="P1" class="img-fluid product-image-secondary">
+                            </div>
+                            <div class="product-name pt-3">
+                                <h3 class="text-capitalize">women totes lady handbag</h3>
+                                <p class="mb-0 amount"><strong>$430.00</strong> <del>$450.00</del></p>
+                                <div class="py-1">
+                                    <span><i class="fa-solid fa-star active"></i></span>
+                                    <span><i class="fa-solid fa-star active"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+
+                                    <button class="btn add_to_cart" type="button">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- upto 75% off -->
+            <div class="overflow-hidden my-5">
+                <div class="row">
+                    <div class="col-sm-12 up_to_off">
+                        <img src="lg.jpg" alt="Offer" class="img-fluid w-100">
+                        <div class="up_to_content">
+                            <h2>UP TO 75% OFF</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="special" class="special">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="headline text-center mb-5">
+                        <h2 class="text-uppercase pb-3 position-relative d-inline-block">Summer Sale</h2>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-7 text-center text-lg-start">
+                    <div class="countdown-counter">
+                        <h2 class="text-uppercase">Sexy Women floral embroidary</h2>
+                        <p class="my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor nemo veritatis possimus asperiores quaerat accusantium labore doloremque earum praesentium iure rerum veniam voluptates aliquid quo voluptatem dolorum quae, ex aut nostrum nesciunt cum? Amet inventore quidem quia vel? Sunt, voluptate quo quidem eaque minus dignissimos ad architecto atque deserunt.</p>
+                        <ul class="list-unstyled countdown-container">
+                            <li><span class="fs-1 d-block" id="days">00</span>Days</li>
+                            <li><span class="fs-1 d-block" id="hours">00</span>Hrs</li>
+                            <li><span class="fs-1 d-block" id="min">00</span>Min</li>
+                            <li><span class="fs-1 d-block" id="sec">00</span>Sec</li>
+                        </ul>
+                        <span class="countdown-price h3 d-block mb-4">$420.00 <del>$670.00</del></span>
+                        <button type="button" class="btn btn-danger">Add To Cart</button>
+                    </div>
+                </div>
+                <col-sm-12 class="col-lg-5">
+            <div class="special-img position-relative">
+                <span class="sale">Sale</span>
+                <img src="p7.jpg" alt="Dress" class="img-fluid">
+            </div></col-sm-12>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial" class="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="headline text-center mb-5">
+                        <h2 class="position-relative pb-3 d-inline-block">Testimonials</h2>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-8 offset-lg-2 text-center">
+                    <div data-bs-ride="carousel" id="carouselExampleIndicatorsTwo" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1" class="active"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide-to="1" aria-current="true" aria-label="Slide 1"></button>
+                        </div>
+                    
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="testimonial-wrapper">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <img src="user.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="username">
+                                            <h3>Martin Johe, Co-founder / CEO</h3>
+                                            <span>FastCompany Lts.</span>
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non dolore eaque labore fugit illo in, sequi mollitia explicabo, nemo numquam dicta dolor! Commodi ullam minima quaerat delectus sed corporis incidunt labore! Optio tenetur tempore molestiae accusantium minus enim? Nemo doloribus quasi maxime explicabo, quaerat voluptates mollitia repellendus fugit molestiae? Dolores dolorum ipsam excepturi asperiores culpa laborum mollitia vel, ut animi?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-wrapper">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <img src="user2.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="username">
+                                            <h3>Martin Johe, Co-founder / CEO</h3>
+                                            <span>FastCompany Lts.</span>
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non dolore eaque labore fugit illo in, sequi mollitia explicabo, nemo numquam dicta dolor! Commodi ullam minima quaerat delectus sed corporis incidunt labore! Optio tenetur tempore molestiae accusantium minus enim? Nemo doloribus quasi maxime explicabo, quaerat voluptates mollitia repellendus fugit molestiae? Dolores dolorum ipsam excepturi asperiores culpa laborum mollitia vel, ut animi?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="fa-solid fa-angle-left slider-icon"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="fa-solid fa-angle-right slider-icon"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact">
+            <div class="container">
+                <div class="mb-5 text-center">
+                    <h5>Let's Start a Conversation!</h5>
+                    <h2 class="fw-bold">Contact Us</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-5 col-md-5">
+                        <h3 class="fw-bold">Contact Info</h3>
+
+                        <ul class="list-unstyled info">
+                            <li class="d-flex align-items-center">
+                                <span class="fs-5"><i class="fa-solid fa-location-dot fs-5"></i></span>
+                                <p><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing.</a></p>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-5"><i class="fa-solid fa-mobile fs-5"></i></span>
+                                <p><a href="#">+91 9884 235 235</a></p>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-5"><i class="fa-solid fa-envelope fs-5"></i></span>
+                                <p><a href="#">Info@shop12.com</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-7 col-md-7 pt-lg-0 pt-md-0 pt-4">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Your Name" type="text" name="name" id="name" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="email" placeholder="Your email" type="text" name="email" id="email" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea name="message" id="message" placeholder="Enter Your Message" cols="10" rows="4" class="textarea"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button class="btn btn-danger"><span class="fs-5 "><i class="mr-3 fa-solid fa-rocket"></i></span>Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="p-3 copyright">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-start">
+                        <p class="my-0">CopyRight &copy; 2021 <a href="E-SHOP"></a> All Rights Reserved</p>
+                    </div>
+                    <div class="col-12 col-lg-6 p-lg-3 text-center text-lg-end">
+                        <p>Designed by <a href="#" target="_blank">SANKET BELEKAR</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="scrollup">
+        <a href="#home"><span>&uarr;</span></a>        
+    </div>    
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .customborder{
+            border: 5px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mb-5">
+        <h2 class="py-3 text-center">BootStrap Progress Bar Class</h2>
+        <div class="row py-5">
+            <div class="col">
+                <h5>Java</h5>
+                <div class="progress mb-5" style="height: 115px;">
+                    <!-- custom height can be set for progress bar -->
+                    <div class="progress-bar" style="width: 25%; font-size: 75px;">25%</div>
+                    <!-- 25% gets inculcated inside progress bar -->
+                </div>
+            </div>
+        </div>
+        <div class="row py-5">
+            <div class="col">
+                <h1>BootStrap</h1>
+                <div class="progress">
+                    <div class="progress-bar bg-danger" style="width: 79%;"></div> 79% 
+                </div>
+            </div>
+        </div>
+        <div class="row py-5">
+            <div class="col">
+                <h1>BootStrap</h1>
+                <div class="progress">
+                    <!-- multiple progress bars can be attached in the same -->
+                    <div class="progress-bar bg-danger" style="width: 15%;"></div> 15% 
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-success" style="width: 24%;"></div> 24% 
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-primary" style="width: 41%;"></div> 41% 
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-secondary" style="width: 11%;"></div> 11% 
+                </div>
+            </div>
+        </div>
+        <div class="row py-5">
+            <div class="col">
+                <h1>HTML</h1>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 98%;">98%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>

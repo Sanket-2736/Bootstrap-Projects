@@ -1,0 +1,247 @@
+
+
+
+
+
+/*============= COURSE SECTION =============*/
+
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+.narrow h1 {
+    font-size: 2.4rem;
+  }
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #1EBBA3;
+  background-color: #1EBBA3;
+  color: white;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #189582;
+  background-color: #189582;
+  color: white;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+  color: #505962;
+}
+
+/* navigation css : */
+
+.navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background: rgba(0, 0, 0, 0.6)!important;
+}
+
+.navbar-brand img{
+  height: 2rem;
+}
+
+.navbar-nav li{
+  padding-right: 0.7rem;
+}
+
+.nav-link, .navbar-nav, .navbar-dark{
+  color: white;
+  padding-top: 0.8rem;
+}
+
+/* landing page css : */
+.home-inner{
+  background-image: url(computers.png);
+}
+
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  color: white;
+  z-index: 1;
+  text-transform: uppercase;
+}
+
+.fixed{
+  background: url(apple.png);
+}
+
+.lead{
+  font-weight: 500;
+}
+
+
+.caption h1{
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+  padding-bottom: 1rem;
+}
+
+.offset::before{
+  display: block;
+  content: '';
+  height: 4rem;
+}
+
+.caption h3{
+  font-size: 2rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
+  padding-bottom: 1.6rem;
+  font-weight: 700;
+}
+.caption a{
+  border-radius: 0;
+  font-size: 1.1rem;
+  padding: 0.6rem 1.3rem;
+  border-width: 4px;
+}
+
+/* course section */
+
+.narrow{
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+
+.narrow h1{
+  font-size: 2.4rem;
+
+}
+.narrow .btn-secondary{
+  text-transform: uppercase;
+  border-radius: 0;
+  border-width: medium;
+  font-size: 1.2rem;
+  padding: 0.6rem 1.2rem;
+  color: white;
+  background: #1ebba3;
+}
+
+.btn-secondary:hover{
+  background: #189582;
+  border-color: #189582;
+}
+
+/* features section */
+.jumbotron{
+  margin-bottom: 0;
+  padding: 2rem 0 3.5rem;
+}
+.heading{
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.heading-underline{
+  width: 3rem;
+  height: 0.2rem;
+  background: #1EBBA3;
+  margin: 0 auto 2rem;
+}
+.feature i{
+  color: #1EBBA3;
+}
+
+.dark{
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 7rem 2rem;
+}
+
+.fixed-background h3, .fixed-background p{
+  font-weight: 700;
+}
+
+
+/* clients :  */
+.client img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.client hr{height: 3px; color: #505962;}
+
+/* contact section */
+
+footer{
+  background: #40474e;
+  color: white;
+  padding: 2rem 0 rem 2rem;
+  margin-top: 1rem;
+}
+
+footer img{
+  height: 3rem;
+  margin: 1.5rem 0;
+}
+footer a{
+  color: white;
+}
+footer a i{
+  scale: 2;
+  margin: 2rem;
+}
+footer a i:hover{
+  color: #1ebba3!important;
+}
+
+hr.socket{
+  width: 100%;
+  border-top: 0.2rem solid #666b71;
+  margin-top: 3rem;
+}
+
+/* media queries */
+@media(max-width : 767px){
+  .caption h3{
+    font-size: 1.2rem;
+    padding-bottom: 1.6rem;
+    font-weight: 700;
+  }
+  .caption a{
+    font-size: 1.1rem;
+    padding: 0.6rem 1.3rem;
+  }
+  .caption h1{
+    font-size: 2.3rem;
+    letter-spacing: 0.3rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
